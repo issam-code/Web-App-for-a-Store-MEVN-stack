@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Add Product",
+    "version": "1.0.0",
+    "permissions": [ 
+    "tabs"
+    ],
+    "host_permissions": ["https://www.aliexpress.com/item/"],
+    "action":{
+        "default_popup": "index.html"
+      }
+  }
